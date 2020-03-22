@@ -14,19 +14,19 @@ public class StudentValidator implements Validator<Student> {
         if(entity.getID().equals("")){
             throw new ValidationException("Id incorect!");
         }
-        if(entity.getID() == null){
+        if(entity.getID() == null || entity.getID().length() == 0){
             throw new ValidationException("Id incorect!");
         }
         if(entity.getNume() == ""){
             throw new ValidationException("Nume incorect!");
         }
-        if(entity.getGrupa() < 0) {
+        if(entity.getGrupa() <= 110 || entity.getGrupa() >937) {
             throw new ValidationException("Grupa incorecta!");
         }
         if(entity.getEmail() == null){
             throw new ValidationException("Email incorect!");
         }
-        if(entity.getNume() == null){
+        if(entity.getNume() == null || entity.getNume().length() == 0){
             throw new ValidationException("Nume incorect!");
         }
         if(entity.getEmail().equals("")){

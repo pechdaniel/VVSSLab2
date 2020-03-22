@@ -10,6 +10,7 @@ import service.Service;
 import validation.NotaValidator;
 import validation.StudentValidator;
 import validation.TemaValidator;
+import validation.ValidationException;
 import view.UI;
 
 import java.util.ArrayList;
@@ -57,7 +58,7 @@ public class AppTest
 
         this.service.addStudent(new Student("690","Nicolae", 935, "george@snitel.com"));
 
-        assertTrue(this.service.findStudent("690").getNume().equals("Nicolae"));
+        assertEquals("Nicolae", this.service.findStudent("690").getNume());
     }
 
     @Test
@@ -71,6 +72,19 @@ public class AppTest
 
         this.service.addStudent(new Student("690","George", 935, "nicolae@snitel.com"));
 
-        assertFalse(this.service.findStudent("690").getNume().equals("George"));
+        assertNotEquals("George", this.service.findStudent("690").getNume());
+    }
+
+    @Test
+    public void TestStudentHasInvalidGroup(){
+        StudentValidator sv = new StudentValidator();
+        boolean hasError = false;
+        try {
+            sv.validate(new Student("690", "Mihai", -1, "george@snitel.com"));
+        }catch (ValidationException ex){
+            hasError = true;
+        }
+
+        assertTrue(hasError);
     }
 }
