@@ -96,9 +96,9 @@ public class AppTest
 
         clearAllAssignments();
 
-        this.service.addTema(new Tema("1","Tema", 2, 3));
+        this.service.addTema(new Tema("2","Tema", 2, 3));
 
-        assertEquals("Tema", this.service.findTema("1").getDescriere());
+        assertEquals("Tema", this.service.findTema("2").getDescriere());
     }
 
     @Test
@@ -128,6 +128,51 @@ public class AppTest
         TestAddStudentWhiteBoxForIntergration();
         TestAddAssignmentWhiteBoxForIntergration();
         TestAddGradeWhiteBoxForIntergration();
+    }
+
+    @Test
+    public void TestAddStudentWhiteBoxForIntergrationHomework(){
+        this.CreateService();
+
+        clearAllStudents();
+
+        this.service.addStudent(new Student("690","Nicolae", 935, "george@snitel.com"));
+
+        assertEquals("Nicolae", this.service.findStudent("690").getNume());
+    }
+
+    @Test
+    public void TestAddAssignmentIntergrationHomework(){
+        this.CreateService();
+
+        clearAllAssignments();
+
+        TestAddStudentWhiteBoxForIntergrationHomework();
+        this.service.addTema(new Tema("1","Tema", 2, 3));
+
+        assertEquals("Tema", this.service.findTema("1").getDescriere());
+    }
+
+    @Test
+    public void TestAddGradeIntergrationHomework(){
+        this.CreateService();
+
+        clearAllGrades();
+
+        TestAddStudentWhiteBoxForIntergrationHomework();
+        TestAddAssignmentWhiteBoxForIntergration();
+        Nota nota = new Nota("2","690", "2", 10, LocalDate.now());
+        nota.setID(nota.getIdTema());
+        this.service.addNota(nota, "De nota 10");
+
+        assertEquals("690", this.service.findNota("2").getIdStudent());
+    }
+
+    @Test
+    public void TestIntegrationHomework(){
+        TestAddStudentWhiteBoxForIntergrationHomework();
+        TestAddAssignmentIntergrationHomework();
+        TestAddGradeIntergrationHomework();
     }
 
     @Test
