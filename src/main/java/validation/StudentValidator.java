@@ -1,12 +1,6 @@
 package validation;
 
 import domain.Student;
-import jdk.nashorn.internal.runtime.regexp.joni.Regex;
-import sun.misc.Regexp;
-
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 public class StudentValidator implements Validator<Student> {
 
     /**
@@ -16,9 +10,7 @@ public class StudentValidator implements Validator<Student> {
      */
     @Override
     public void validate(Student entity) throws ValidationException {
-        Pattern r1 = Pattern.compile("[0-9]");
-        Matcher m1 = r1.matcher(entity.getID());
-        if(entity.getID().equals("") || !m1.find()){
+        if(entity.getID().equals("")){
             throw new ValidationException("Id incorect!");
         }
         if(entity.getID() == null || entity.getID().length() == 0 || Integer.parseInt(entity.getID())<0){
@@ -33,9 +25,7 @@ public class StudentValidator implements Validator<Student> {
         if(entity.getEmail() == null || !entity.getEmail().contains("@")){
             throw new ValidationException("Email incorect!");
         }
-        Pattern r = Pattern.compile("[ a-zA-Z]");
-        Matcher m = r.matcher(entity.getNume());
-        if(entity.getNume() == null || entity.getNume().length() == 0 || !m.find()){
+        if(entity.getNume() == null || entity.getNume().length() == 0){
             throw new ValidationException("Nume incorect!");
         }
         if(entity.getEmail().equals("")){

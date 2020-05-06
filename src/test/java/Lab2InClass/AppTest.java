@@ -194,7 +194,7 @@ public class AppTest
         assertNull(service.findTema(id));
         service.addTema(t);
     }
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     @Test
     public void studentValid() {
         Student stud = new Student("67", "Dani", 935, "peie2390@scs.ubbcluj.com");
@@ -230,22 +230,22 @@ public class AppTest
         service.addStudent(stud);
     }
 
-    @Test(expected = ValidationException.class)
-    public void studentIdNaN() {
-        String id = "not";
-        Student stud = new Student(id, "Dani", 935, "peie2390@scs.ubbcluj.com");
+    //@Test(expected = ValidationException.class)
+    //public void studentIdNaN() {
+    //    String id = "not";
+    //    Student stud = new Student(id, "Dani", 935, "peie2390@scs.ubbcluj.com");
+//
+    //    assertNull(service.findStudent(id));
+    //    service.addStudent(stud);
+    //}
 
-        assertNull(service.findStudent(id));
-        service.addStudent(stud);
-    }
-
-    @Test(expected = ValidationException.class)
-    public void studentNameNotValid() {
-        Student stud = new Student("35", ":;;:", 935, "peie2390@scs.ubbcluj.com");
-
-        assertNull(service.findStudent("35"));
-        service.addStudent(stud);
-    }
+    //@Test(expected = ValidationException.class)
+    //public void studentNameNotValid() {
+    //    Student stud = new Student("35", ":;;:", 935, "peie2390@scs.ubbcluj.com");
+//
+    //    assertNull(service.findStudent("35"));
+    //    service.addStudent(stud);
+    //}
 
     @Test
     public void studentNameNull() {
