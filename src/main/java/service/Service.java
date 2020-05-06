@@ -58,6 +58,13 @@ public class Service {
      * @return null daca studentul a fost adaugat cu succes sau studentul din memorie daca acesta exista deja
      */
     public Student addStudent(Student student) {
+        if(student.getNume() == null ||
+                student.getID() == null ||
+                student.getEmail() == null ||
+                student.getClass() == null){
+            return null;
+        }
+
         studentValidator.validate(student);
         return studentFileRepository.save(student);
     }

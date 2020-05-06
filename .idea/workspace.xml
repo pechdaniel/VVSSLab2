@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0e39ff4-1c4e-4a76-a39f-79dab8530614" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lab2InClass/TestAssignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lab2InClass/TestStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fisiere/Studenti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fisiere/Studenti.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fisiere/Teme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fisiere/Teme.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validation/StudentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validation/StudentValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validation/TemaValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validation/TemaValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Lab2InClass/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2InClass/AppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,18 +25,65 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Lab2InClass/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="149" column="56" selection-start-line="149" selection-start-column="56" selection-end-line="149" selection-end-column="56" />
+            <state relative-caret-position="400">
+              <caret line="195" column="5" selection-start-line="195" selection-start-column="5" selection-end-line="195" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1636#1642#0" expanded="true" />
-                <element signature="e#1672#1678#0" expanded="true" />
-                <element signature="e#3410#3416#0" expanded="true" />
-                <element signature="e#3493#3499#0" expanded="true" />
-                <element signature="e#3594#3603#0" expanded="true" />
-                <element signature="e#5768#5769#0" expanded="true" />
-                <element signature="e#5828#5829#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Lab2InClass/TestStudent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Lab2InClass/TestAssignment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="485">
+              <caret line="190" lean-forward="true" selection-start-line="190" selection-end-line="190" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/validation/TemaValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/validation/StudentValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/lab2-3/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -36,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/repository/AbstractXMLRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="144" column="29" lean-forward="true" selection-start-line="144" selection-start-column="29" selection-end-line="144" selection-end-column="29" />
+            <state relative-caret-position="2176">
+              <caret line="144" column="29" selection-start-line="144" selection-start-column="29" selection-end-line="144" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -45,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/repository/AbstractCrudRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="68" column="32" lean-forward="true" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
+            <state relative-caret-position="1020">
+              <caret line="68" column="32" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
               <folding>
                 <element signature="e#1557#1558#0" expanded="true" />
                 <element signature="e#1604#1605#0" expanded="true" />
@@ -58,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="166" column="42" lean-forward="true" selection-start-line="166" selection-start-column="42" selection-end-line="166" selection-end-column="42" />
+            <state relative-caret-position="209">
+              <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
               <folding>
                 <element signature="e#3566#3567#0" expanded="true" />
                 <element signature="e#3620#3621#0" expanded="true" />
@@ -71,8 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/domain/Tema.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+            <state relative-caret-position="197">
+              <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -84,7 +139,35 @@
       <find>delete</find>
       <find>addte</find>
       <find>@Test</find>
+      <find>Deaconu Andrei</find>
+      <find>Nume incorect!</find>
+      <find>daie2301</find>
+      <find>Email incorect!</find>
+      <find>Incorrect Email</find>
+      <find>Email incorrect!</find>
+      <find>932</find>
+      <find>Incorrect Name</find>
+      <find>tc_</find>
+      <find>3_tc</find>
+      <find>serviceStudent</find>
+      <find>, &quot;Teacher&quot;</find>
+      <find>serviceTeme</find>
+      <find>Teme</find>
     </findStrings>
+    <replaceStrings>
+      <replace>Pech Daniel</replace>
+      <replace>Incorrect Name</replace>
+      <replace>peie2390</replace>
+      <replace>Incorrect Email</replace>
+      <replace>Email incorrect!</replace>
+      <replace>Email incorect!</replace>
+      <replace>935</replace>
+      <replace>Nume incorect!</replace>
+      <replace>3_tc_</replace>
+      <replace>lab3_tc_</replace>
+      <replace>service</replace>
+      <replace>Tema</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,8 +182,13 @@
         <option value="$PROJECT_DIR$/src/main/java/Lab2InClass/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2InClass/app/MainApplication.java" />
         <option value="$USER_HOME$/Desktop/Lab2inclass/Lab2_IC_935_MuradasilBirhanMurariuAlexandru/AppTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/validation/StudentValidator.java" />
+        <option value="$USER_HOME$/Desktop/lab2-3/AppTest.java" />
+        <option value="$USER_HOME$/Desktop/lab2-3/AssignmentTestsWBT.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/Service.java" />
+        <option value="$PROJECT_DIR$/src/main/java/validation/StudentValidator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Lab2InClass/TestStudent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/validation/TemaValidator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Lab2InClass/TestAssignment.java" />
         <option value="$PROJECT_DIR$/src/test/java/Lab2InClass/AppTest.java" />
       </list>
     </option>
@@ -113,10 +201,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="900" />
-    <option name="y" value="180" />
-    <option name="width" value="1000" />
-    <option name="height" value="870" />
+    <option name="x" value="295" />
+    <option name="y" value="-25" />
+    <option name="width" value="870" />
+    <option name="height" value="700" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -124,7 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,6 +257,14 @@
               <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lab2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="validation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -191,20 +286,26 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586940683163" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588771753594" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Marcel/SSVVGood-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Lab2InClass" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -219,19 +320,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.AppTest">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab2InClass.App" />
-      <module name="Lab2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab2InClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab2" />
       <extension name="coverage">
@@ -247,7 +335,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.TestAddAssignmentWhiteBoxForIntergration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.lab3_tc__15_AddAssignment_ExistentID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab2" />
       <extension name="coverage">
         <pattern>
@@ -257,13 +345,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Lab2InClass" />
       <option name="MAIN_CLASS_NAME" value="Lab2InClass.AppTest" />
-      <option name="METHOD_NAME" value="TestAddAssignmentWhiteBoxForIntergration" />
+      <option name="METHOD_NAME" value="lab3_tc__15_AddAssignment_ExistentID" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.TestConditionsAddAssignmentThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.tc_1_NewStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab2" />
       <extension name="coverage">
         <pattern>
@@ -273,13 +361,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Lab2InClass" />
       <option name="MAIN_CLASS_NAME" value="Lab2InClass.AppTest" />
-      <option name="METHOD_NAME" value="TestConditionsAddAssignmentThrowsException" />
+      <option name="METHOD_NAME" value="tc_1_NewStudent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.TestConditionsAddAssignmentWorks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAssignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab2" />
       <extension name="coverage">
         <pattern>
@@ -288,9 +376,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Lab2InClass" />
-      <option name="MAIN_CLASS_NAME" value="Lab2InClass.AppTest" />
-      <option name="METHOD_NAME" value="TestConditionsAddAssignmentWorks" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="Lab2InClass.TestAssignment" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab2InClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab2InClass" />
+      <option name="MAIN_CLASS_NAME" value="Lab2InClass.TestStudent" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -298,10 +400,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.AppTest.TestAddAssignmentWhiteBoxForIntergration" />
-        <item itemvalue="JUnit.AppTest.TestConditionsAddAssignmentWorks" />
-        <item itemvalue="JUnit.AppTest.TestConditionsAddAssignmentThrowsException" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.TestAssignment" />
+        <item itemvalue="JUnit.TestStudent" />
+        <item itemvalue="JUnit.AppTest.lab3_tc__15_AddAssignment_ExistentID" />
+        <item itemvalue="JUnit.AppTest.tc_1_NewStudent" />
       </list>
     </recent_temporary>
   </component>
@@ -320,50 +422,55 @@
       <workItem from="1584822881760" duration="232000" />
       <workItem from="1584890142431" duration="2776000" />
       <workItem from="1585727247639" duration="4814000" />
-      <workItem from="1586934717544" duration="5192000" />
+      <workItem from="1586934717544" duration="6015000" />
+      <workItem from="1588616206433" duration="6000" />
+      <workItem from="1588749134330" duration="1312000" />
+      <workItem from="1588750496417" duration="673000" />
+      <workItem from="1588752855761" duration="2314000" />
+      <workItem from="1588764564363" duration="4515000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2020.04.15 at 11h 01m 08s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="TestStudent - 2020.05.06 at 16h 05m 43s.xml">
+      <configuration name="TestStudent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2020.04.15 at 11h 02m 18s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="TestStudent - 2020.05.06 at 16h 06m 19s.xml">
+      <configuration name="TestStudent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2020.04.15 at 11h 02m 37s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="TestStudent - 2020.05.06 at 16h 07m 05s.xml">
+      <configuration name="TestStudent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2020.04.15 at 11h 02m 43s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="TestAssignment - 2020.05.06 at 16h 13m 09s.xml">
+      <configuration name="TestAssignment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2020.04.15 at 11h 06m 27s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="TestAssignment - 2020.05.06 at 16h 15m 46s.xml">
+      <configuration name="TestAssignment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2020.04.15 at 11h 06m 44s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="TestAssignment - 2020.05.06 at 16h 16m 03s.xml">
+      <configuration name="TestAssignment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2020.04.15 at 11h 08m 37s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="TestAssignment - 2020.05.06 at 16h 16m 56s.xml">
+      <configuration name="TestAssignment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2020.04.15 at 11h 08m 49s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="TestAssignment - 2020.05.06 at 16h 17m 53s.xml">
+      <configuration name="TestAssignment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2020.04.15 at 11h 08m 56s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="TestAssignment - 2020.05.06 at 16h 18m 53s.xml">
+      <configuration name="TestAssignment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2020.04.15 at 11h 09m 44s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="TestAssignment - 2020.05.06 at 16h 18m 58s.xml">
+      <configuration name="TestAssignment" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19377000" />
+    <option name="totallyTimeSpent" value="29020000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1852349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21946308" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -402,6 +509,18 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/service/Service.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Lab2InClass/model/Participant.java" />
@@ -460,24 +579,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/validation/StudentValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/validation/TemaValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -499,13 +604,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/BigBangTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-229">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/BigBangTests.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2">
@@ -513,28 +612,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repository/AbstractXMLRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="144" column="29" lean-forward="true" selection-start-line="144" selection-start-column="29" selection-end-line="144" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="271" column="6" selection-start-line="271" selection-start-column="6" selection-end-line="271" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repository/AbstractCrudRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="68" column="32" lean-forward="true" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
-          <folding>
-            <element signature="e#1557#1558#0" expanded="true" />
-            <element signature="e#1604#1605#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -565,10 +646,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/lab2-3/AssignmentTestsWBT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/lab2-3/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/AbstractXMLRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="144" column="29" selection-start-line="144" selection-start-column="29" selection-end-line="144" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/AbstractCrudRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="32" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
+          <folding>
+            <element signature="e#1557#1558#0" expanded="true" />
+            <element signature="e#1604#1605#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/validation/ValidationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="166" column="42" lean-forward="true" selection-start-line="166" selection-start-column="42" selection-end-line="166" selection-end-column="42" />
+        <state relative-caret-position="209">
+          <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
           <folding>
             <element signature="e#3566#3567#0" expanded="true" />
             <element signature="e#3620#3621#0" expanded="true" />
@@ -576,26 +696,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/validation/StudentValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Lab2InClass/TestStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/Tema.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        <state relative-caret-position="197">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/validation/TemaValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Lab2InClass/TestAssignment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="190" lean-forward="true" selection-start-line="190" selection-end-line="190" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Lab2InClass/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="149" column="56" selection-start-line="149" selection-start-column="56" selection-end-line="149" selection-end-column="56" />
+        <state relative-caret-position="400">
+          <caret line="195" column="5" selection-start-line="195" selection-start-column="5" selection-end-line="195" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1636#1642#0" expanded="true" />
-            <element signature="e#1672#1678#0" expanded="true" />
-            <element signature="e#3410#3416#0" expanded="true" />
-            <element signature="e#3493#3499#0" expanded="true" />
-            <element signature="e#3594#3603#0" expanded="true" />
-            <element signature="e#5768#5769#0" expanded="true" />
-            <element signature="e#5828#5829#0" expanded="true" />
           </folding>
         </state>
       </provider>

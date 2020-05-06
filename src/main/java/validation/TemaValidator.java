@@ -11,11 +11,17 @@ public class TemaValidator implements Validator<Tema> {
      */
     @Override
     public void validate(Tema entity) throws ValidationException {
+        if(entity.getDescriere()==null){
+            throw new ValidationException("Descriere invalida!");
+        }
         if(entity.getID().equals("") || entity.getID() == null) {
             throw new ValidationException("Numar tema invalid!");
         }
         if(entity.getDescriere().equals("")){
             throw new ValidationException("Descriere invalida!");
+        }
+        if(entity.getDeadline()<entity.getPrimire()) {
+            throw new ValidationException("Deadlineul trebuie sa fie mai mare decat primirea.");
         }
         if(entity.getDeadline() < 1 || entity.getDeadline() > 14) {
             throw new ValidationException("Deadlineul trebuie sa fie intre 1-14.");
